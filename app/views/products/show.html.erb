@@ -1,0 +1,64 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Dni:</strong>
+  <%= @product.dni %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @product.name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @product.description %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @product.price %>
+</p>
+
+<p>
+  <strong>Puntuation:</strong>
+  <%= @product.puntuation %>
+</p>
+
+<p>
+  <strong>Amount:</strong>
+  <%= @product.amount %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @product.status %>
+</p>
+
+<p>
+  <strong>Promotion:</strong>
+  <%= @product.promotion %>
+</p>
+
+<p>
+  <strong>View count:</strong>
+  <%= @product.view_count %>
+</p>
+
+<p>
+  <strong>Date created:</strong>
+  <%= @product.date_created %>
+</p>
+
+<p>
+  <strong>Cover:</strong>
+  <%= @product.cover %>
+</p>
+
+<p>
+  <strong>Completion date:</strong>
+  <%= @product.completion_date %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
